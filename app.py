@@ -7,10 +7,10 @@ app = Flask(__name__)
 
 # Load ML models from the local directory
 models = {
-    "Naïve Bayes": joblib.load("ml_models/Naïve Bayes_model.pkl"),
-    "KNN": joblib.load("ml_models/KNN_model.pkl"),
-    "SVM": joblib.load("ml_models/SVM_model.pkl"),
-    "Random Forest": joblib.load("ml_models/Random_Forest_model.pkl")
+    "Naive Bayes": joblib.load("Naive Bayes_model.pkl"),
+    "KNN": joblib.load("KNN_model.pkl"),
+    "SVM": joblib.load("SVM_model.pkl"),
+    "Random Forest": joblib.load("Random_Forest_model.pkl")
 }
 
 # Prediction Endpoint
